@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Moving Square</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Contain up button -->
+        <div class="row1">
+            <button onclick="moveSquare('UP')" class="move-button vertical-button">
+                <!-- Up code -->
+                &#8593;
+            </button>
+        </div>
+
+        <!-- For left button, content and right button -->
+        <div class="row2">
+            <button onclick="moveSquare('LEFT')" class="move-button horizontal-button">
+                <!-- Left code -->
+                &#8592;
+            </button>
+            <div id="board" class="board">
+                <div id="square" class="square">
+                </div>
+            </div>
+            <button onclick="moveSquare('RIGHT')" class="move-button horizontal-button">
+                <!-- Right code -->
+                &#8594;
+            </button>
+        </div>
+
+        <!-- For down button -->
+        <div class="row3">
+            <button onclick="moveSquare('DOWN')" class=" vertical-button move-button">
+                <!-- Down code -->
+                &#8595;
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
