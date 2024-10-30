@@ -30,6 +30,7 @@ async function renderNewQuote() {
     quoteDisplayElement.innerHTML = "";
     quoteInputElement.value = null;
     quoteInputElement.focus();
+    quoteInputElement.removeAttribute("readonly");
     newQuoteButtonElement.classList.add("quote-button-hidden");
     newQuoteButtonElement.classList.remove("quote-button-visible");
 
@@ -67,6 +68,7 @@ quoteInputElement.addEventListener('input', (event) => {
     if (correct && timerInterval) {
         newQuoteButtonElement.classList.add("quote-button-visible");
         newQuoteButtonElement.classList.remove("quote-button-hidden");
+        quoteInputElement.setAttribute("readonly", "true");
         clearInterval(timerInterval);
         timerInterval = null;
     }
