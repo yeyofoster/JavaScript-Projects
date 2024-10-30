@@ -12,8 +12,8 @@ This repository contains a collection of small projects built with **HTML**, **C
 ## Projects
 Here is a list of the projects in this repository, each with a brief description:
 
-1. **Typing Game** - A simple typing game designed to improve your typing speed and accuracy.
-2. **Moving Square** - A simple app that moves a square in a board.
+1. [**Typing Game**](https://github.com/yeyofoster/JavaScript-Projects/tree/master/Typing%20game) - A simple typing game designed to improve your typing speed and accuracy.
+2. [**Moving Square**](https://github.com/yeyofoster/JavaScript-Projects/tree/master/MovingSquare) - A simple app that moves a square in a board.
 
 You can find each project in its respective folder, each containing its own `README.md` file with more details.
 
